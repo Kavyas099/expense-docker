@@ -1,4 +1,4 @@
-const dbcreds = require('./DbConfig');
+const dbcreds = require('./Dbconfig');
 const mysql = require('mysql2'); // Change to mysql2
 
 const con = mysql.createConnection({
